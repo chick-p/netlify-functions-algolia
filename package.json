@@ -1,0 +1,25 @@
+{
+  "name": "netlify-function-algolia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build src",
+    "serve": "netlify-lambda serve src",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "algoliasearch": "^3.33.0",
+    "dotenv": "^8.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-plugin-node": "^9.1.0",
+    "netlify-lambda": "^1.6.2"
+  }
+}
